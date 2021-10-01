@@ -69,6 +69,18 @@ img {
     background: transparent;
 }
 
-.footer a {
+.footer {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.github:link, .github:visited {
+    color: black;
+}
+
+.sponser:link, .sponser:hover, .sponser:visited {
     color: transparent;
 }
