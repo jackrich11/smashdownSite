@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
 
         <link rel="stylesheet" href="../index.css">
+        <link rel="stylesheet" href="info.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
@@ -36,31 +37,145 @@
               </div>
             </nav>
           
-            <div class="content">
+            <div class="content" id="jstest">
               <h1 class="intro">Character Information</h1>
               
-              <div class="option-group">
-                <div class="option-button">
-                  <img src="https://img.icons8.com/material-rounded/24/000000/super-smash-bros.png"/>
-                  <h3 class="option-title">Smashdown</h3>
-                </div>
-                <div class="option-button">
-                  <img src="https://img.icons8.com/ios-glyphs/30/000000/statue.png"/>      
-                  <h3 class="option-title">Amiibo Info</h3>         
-                 </div>
-                <div class="option-button">
-                  <img src="https://img.icons8.com/ios-glyphs/30/000000/question-mark.png"/> 
-                  <h3 class="option-title">Random Character</h3>               
-                </div>
-                <div class="option-button">
-                  <img src="https://img.icons8.com/material-outlined/24/000000/list.png"/>   
-                  <h3 class="option-title">Character Info</h3>             
-                </div>
-              </div>
+              
             </div>
 
 
 
+        </div>
+
+        <div class="option-group">
+            <div class="option-button" id="echo-box">
+              <img src="https://img.icons8.com/ios/50/000000/unchecked-checkbox.png"/>
+              <h3 class="option-title">Combine Echo Fighters</h3>
+            </div>
+            <div class="option-button">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/statue.png"/>      
+              <h3 class="option-title">Amiibo Info</h3>         
+             </div>
+            <div class="option-button">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/question-mark.png"/> 
+              <h3 class="option-title">Random Character</h3>               
+            </div>
+            <div class="option-button">
+              <img src="https://img.icons8.com/material-outlined/24/000000/list.png"/>   
+              <h3 class="option-title">Character Info</h3>             
+            </div>
+          </div>
+
+
+
+        <div class="character-table">
+            <table>
+                <tr>
+                    <td><img class="icon" id="mario" src="../icons/MarioHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="dk" src="../icons/DonkeyKongHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="link" src="../icons/LinkHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="samus" src="../icons/samus.png"/></td>
+                    <td><img class="icon" id="dark-samus" src="../icons/dark-samus.png"/></td>
+                    <td><img class="icon" id="yoshi" src="../icons/YoshiHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="kirby" src="../icons/KirbyHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="fox" src="../icons/FoxHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pikachu" src="../icons/PikachuHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="luigi" src="../icons/LuigiHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="ness" src="../icons/NessHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="falcon" src="../icons/CaptainFalconHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="puff" src="../icons/JigglypuffHeadSSBUWebsite.png"/></td>
+                    
+                </tr>
+                <tr>
+                    <td><img class="icon" id="peach" src="../icons/peach.png"/></td>
+                    <td><img class="icon" id="daisy" src="../icons/daisy.png"/></td>
+                    <td><img class="icon" id="bowser" src="../icons/BowserHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="icies" src="../icons/IceClimbersHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="sheik" src="../icons/SheikHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="zelda" src="../icons/ZeldaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="dr-mario" src="../icons/DrMarioHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pichu" src="../icons/PichuHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="falco" src="../icons/FalcoHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="marth" src="../icons/marth.png"/></td>
+                    <td><img class="icon" id="lucina" src="../icons/lucina.png"/></td>
+                    <td><img class="icon" id="young-link" src="../icons/YoungLinkHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="ganon" src="../icons/GanondorfHeadSSBUWebsite.png"/></td>
+                    
+                </tr>
+                <tr>
+                    <td><img class="icon" id="mewtwo" src="../icons/MewtwoHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="roy" src="../icons/roy.png"/></td>
+                    <td><img class="icon" id="chrom" src="../icons/chrom.png"/></td>
+                    <td><img class="icon" id="gnw" src="../icons/MrGame&WatchHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="meta-knight" src="../icons/MetaKnightHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pit" src="../icons/pit.png"/></td>
+                    <td><img class="icon" id="dark-pit" src="../icons/dark-pit.png"/></td>
+                    <td><img class="icon" id="zss" src="../icons/ZeroSuitSamusHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="wario" src="../icons/WarioHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="snake" src="../icons/SnakeHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="ike" src="../icons/IkeHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pkmn-trainer" src="../icons/PokémonTrainerHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="diddy" src="../icons/DiddyKongHeadSSBUWebsite.png"/></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" id="lucas" src="../icons/LucasHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="sonic" src="../icons/SonicHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="ddd" src="../icons/KingDededeHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="olimar" src="../icons/OlimarHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="lucario" src="../icons/LucarioHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="rob" src="../icons/ROBHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="toon-link" src="../icons/ToonLinkHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="wolf" src="../icons/WolfHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="villager" src="../icons/VillagerHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="mega-man" src="../icons/MegaManHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="wii-fit-trainer" src="../icons/WiiFitTrainerHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="rosalina" src="../icons/RosalinaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="little-mac" src="../icons/LittleMacHeadSSBUWebsite.png"/></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" id="greninja" src="../icons/GreninjaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="palutena" src="../icons/PalutenaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pac-man" src="../icons/Pac-ManHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="robin" src="../icons/RobinHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="shulk" src="../icons/ShulkHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="bowser-jr" src="../icons/BowserJrHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="duck-hunt" src="../icons/DuckHuntHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="ryu" src="../icons/ryu.png"/></td>
+                    <td><img class="icon" id="ken" src="../icons/ken.png"/></td>
+                    <td><img class="icon" id="cloud" src="../icons/CloudHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="corrin" src="../icons/CorrinHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="bayo" src="../icons/BayonettaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="inkling" src="../icons/InklingHeadSSBUWebsite.png"/></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" id="ridley" src="../icons/RidleyHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="simon" src="../icons/simon.png"/></td>
+                    <td><img class="icon" id="richter" src="../icons/richter.png"/></td>
+                    <td><img class="icon" id="krool" src="../icons/KingKRoolHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="isabelle" src="../icons/IsabelleHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="incineroar" src="../icons/IncineroarHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="plant" src="../icons/PiranhaPlantHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="joker" src="../icons/JokerHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="hero" src="../icons/HeroHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="banjo" src="../icons/Banjo&KazooieHead.png"/></td>
+                    <td><img class="icon" id="terry" src="../icons/TerryHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="byleth" src="../icons/BylethHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="minmin" src="../icons/MinMinHeadSSBUWebsite.png"/></td>
+                </tr>
+                <tr>
+                    <td><img class="icon" id="steve" src="../icons/SteveHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="sephiroth" src="../icons/SephirothHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="pythra" src="../icons/PyraMythraHeadSSBU.png"/></td>
+                    <td><img class="icon" id="kazuya" src="../icons/KazuyaHeadSSBUWebsite.png"/></td>
+                    <td><img class="icon" id="mii-brawler" src="../icons/miiicons/MiiBrawlerHeadSSBU.png"/></td>
+                    <td><img class="icon" id="mii-swordsman" src="../icons/miiicons/MiiSwordfighterHeadSSBU.png"/></td>
+                    <td><img class="icon" id="mii-gunner" src="../icons/miiicons/MiiGunnerHeadSSBU.png"/></td>
+                    <td><img class="icon" id="random" src="../icons/.png"/></td>
+                </tr>
+    
+                
+                
+            </table>
         </div>
         
         <div class="footer">
@@ -69,6 +184,7 @@
           <a class="sponser" href="https://icons8.com/icon/yQo6yvAjJaAQ/super-smash-bros">Super Smash Bros icon by Icons8</a>
 
         </div>
+        <script src="javascript/info.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

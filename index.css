@@ -67,6 +67,7 @@ img {
 
 .option-button * {
     background: transparent;
+    user-select: none;
 }
 
 .footer {
