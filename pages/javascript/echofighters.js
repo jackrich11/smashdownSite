@@ -43,15 +43,15 @@ const fighterTable = document.getElementsByClassName("character-table")[0];
 const echoFighterBox = document.getElementById("echo-box");
 const echoFighterBoxImage = document.querySelector("#echo-box > img");
 
-const uncheckBoxLink = "https://img.icons8.com/ios/150/000000/unchecked-checkbox.png";
-const checkboxLink = "https://img.icons8.com/ios/150/000000/checked-2--v1.png";
+//const uncheckBoxLink = "https://img.icons8.com/ios/150/000000/unchecked-checkbox.png";
+//const checkboxLink = "https://img.icons8.com/ios/150/000000/checked-2--v1.png";
 
 echoFighterBox.addEventListener("click", function() {
+    
     echoFightersCombined = !echoFightersCombined;
 
     for(let echoPair of ECHOFIGHTER_ARRAY)
     {
-        let counter = 0;
         let pairRow = document.getElementById(echoPair.main).parentElement.parentElement;
         let mainCell = document.getElementById(echoPair.main).parentElement;
 
@@ -84,7 +84,6 @@ echoFighterBox.addEventListener("click", function() {
             echoFighterBoxImage.src = uncheckBoxLink;
 
         }
-        counter += 1;
     }
 
     
