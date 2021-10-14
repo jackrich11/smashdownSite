@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+select, #get-button {
+    background: #F7F052;
+    border-radius: 5px;
+    border-color: transparent;
+    
+}
+
+#amiibo-box {
+    background-color: white;
+    border: black 5px solid;
+    margin: 2rem;
+}
+
